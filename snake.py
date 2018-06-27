@@ -243,6 +243,8 @@ fps = pygame.time.Clock()
 
 window.fill(pygame.Color(225, 225, 225))
 
+gameIcon = pygame.image.load('snake_icon.png')
+pygame.display.set_icon(gameIcon)
 
 gameIntro()
 
